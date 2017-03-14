@@ -1,0 +1,14 @@
+db:
+  image: mysql
+  env_file: mysql.env
+  volumes:
+    - db:/var/lib/mysql
+app:
+  build: .
+  command: python manage.py runserver 0.0.0.0:8000
+  ports:
+    - "8000:8000"
+  volumes:
+    - app:/usr/src/libreqda
+  links:
+    - db

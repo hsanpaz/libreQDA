@@ -18,10 +18,10 @@ RUN mkdir -p $CODE/libreqda
 COPY manage.py $CODE
 COPY requirements.txt $CODE 
 COPY libreqda $CODE/libreqda
-COPY local_settings.py $CODE
-
-RUN pip install -r requirements.txt
+COPY local_settings.py $CODE/libreqda
 
 WORKDIR $CODE
 
-#FIXME work in progress
+RUN pip install -r requirements.txt
+
+
