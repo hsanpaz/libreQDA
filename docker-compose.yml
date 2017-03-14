@@ -2,12 +2,12 @@ db:
   image: mysql
   env_file: mysql.env
   volumes:
-    - db:/var/lib/mysql
+    - libreqdadb:/var/lib/mysql
 app:
   build: .
   ports:
     - "8000:8000"
   volumes:
-    - app:/usr/src/libreqda
+    - libreqdaapp:/usr/src/libreqda
   links:
     - db
