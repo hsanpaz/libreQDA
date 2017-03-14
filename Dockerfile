@@ -19,12 +19,11 @@ COPY manage.py $CODE
 COPY requirements.txt $CODE 
 COPY libreqda $CODE/libreqda
 COPY local_settings.py $CODE/libreqda
+COPY run.sh $CODE
 
 WORKDIR $CODE
 
 RUN pip install -r requirements.txt
 
-COPY run.sh /
-
 EXPOSE 8000
-CMD ["/bin/bash","/run.sh"]
+CMD ["/bin/bash","/usr/src/libreqda/run.sh"]
