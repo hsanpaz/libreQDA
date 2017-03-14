@@ -1,6 +1,7 @@
 BeautifulSoup==3.2.1
 Django==1.4.3
 MySQL-python
+Pillow
 argparse==1.2.1
 distribute
 django-model-report==0.1.4
