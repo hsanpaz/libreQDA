@@ -24,4 +24,7 @@ WORKDIR $CODE
 
 RUN pip install -r requirements.txt
 
+COPY run.sh /
 
+EXPOSE 8000
+CMD ["/bin/bash","/run.sh"]
