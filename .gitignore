@@ -1,0 +1,9 @@
+*.log
+*.pot
+*.pyc
+.metadata/
+.project
+.pydevproject
+.settings/
+local_settings.py
+*.env
