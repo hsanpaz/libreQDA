@@ -1,0 +1,241 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.navbar-inner {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.separate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credits {
+    margin-left: 10%;
+}
+.login-container {
+    top: 45%;
+    left: 50%;
+    width: 500px;
+    height: 335px;
+    margin: -150px 0px 0px -250px;
+    position: absolute;
+    padding-top: 20px !important;
+}
+
+#login-form {
+    margin: 40px 0 20px;
+}
+
+.with-border {
+    padding: 4px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #DDD;
+}
+
+.grey-background {
+    background-color: #E8E8E8;
+}
+
+.white-background {
+    background-color: White;
+}
+
+.lone-container {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.acordion-project-name {
+    font-size: 17.5px
+}
+
+.tight-tab-content {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.key-value-table {
+    table-layout: fixed;
+    width:98%;
+}
+
+.key-value-table .key {
+    width: 24%
+}
+
+.key-value-table .value {
+    width: 74%
+}
+
+.toolbar {
+    width: 100%;
+    display: table;
+    margin-bottom: 20px;
+}
+
+.move-up {
+    margin-top: -10px;
+}
+
+.toolbar-small {
+    width: 100%;
+    display: table;
+    margin-bottom: 9px;
+}
+
+.right-button {
+    margin-left: 25px;
+}
+
+.left-group-button {
+    margin-left: 4px;
+}
+
+.menu-document-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu {
+    transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.menu {
+    top: 42px;
+    height: 100%;
+    background: #FFFFFF;
+    width: 400px;
+    padding: 30px;
+    position: fixed;
+    z-index: 100000;
+    box-shadow: 4px 0 10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 0 10px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 4px 0 10px rgba(0,0,0,0.25);
+}
+
+
+.left {
+    left: 0;
+    border-right: 3px solid #000000;
+}
+
+.left:hover, .left:focus {
+    left: 0 !important;
+}
+
+/*
+.right {
+    right: 0;
+    border-left: 3px solid #000000;
+}
+
+.right:hover, .right:focus {
+    right: 0 !important;
+}
+*/
+
+
+.document-container {
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding: 0px;
+    overflow: auto;
+}
+
+.document-container div {
+    padding-top: 5px;
+}
+
+.document-text {
+    height: 100%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid #CCC;
+}
+
+.document-citations {
+    height: 100%;
+    padding-left: 5px;
+}
+
+.document-citations .citation-bar {
+	width: 10px;
+	height: 5px;
+	background-color: burlywood;
+	display: block;
+	margin: 1px;
+	position: relative;	
+    border-radius: 5px;
+}
+
+.citation-bar.cit-grey { background-color: grey; }
+.citation-bar.cit-red { background-color: #E30022; }
+.citation-bar.cit-yellow { background-color: #FFEF00; }
+.citation-bar.cit-green { background-color: #008000; }
+.citation-bar.cit-blue { background-color: #00308F; }
+.citation-bar.cit-black { background-color: black; }
+
+.document-citations .citation-bar:hover {
+	background-color: khaki;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.citation-bar.cit-grey:hover { background-color: lightgrey; }
+.citation-bar.cit-red:hover { background-color: #FF5349; }
+.citation-bar.cit-yellow:hover { background-color: #FADA5E; }
+.citation-bar.cit-green:hover { background-color: #8DB600; }
+.citation-bar.cit-blue:hover { background-color: #72A0C1; }
+.citation-bar.cit-black:hover { background-color: #635147; }
+
+#userModal form {
+	margin: 0;
+}
+
+#citationModal {
+	width: 1075px;
+	left: 415px;
+}
+
+#doc-text-area {
+    word-wrap: break-word;
+}
+
+.github-badge {
+    width: 32px;
+    left: 32px;
+}
+
+.tooltip {
+    z-index: 1;
+    pointer-events: none;
+}
+
+.tooltip.in {
+    opacity: .6;
+}
